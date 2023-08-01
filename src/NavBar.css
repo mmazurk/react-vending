@@ -1,16 +1,10 @@
 
 .NavBar {
-    background-color: blanchedalmond;
-    margin-bottom: 20px;
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
   
 }
 
-.NavBar a {
-    color: black;
-    margin: 0 2rem;    
-}
-
-.NavBar a.active {
-    color: green;
-
-}

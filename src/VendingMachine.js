@@ -3,7 +3,6 @@ import Soda from "./Soda";
 import Chips from "./Chips";
 import FreshSardines from "./FreshSardines";
 import Home from "./Home";
-import NavBar from "./NavBar";
 
 const VendingMachine = () => {
   // The instruction videos in Springboard are out-of-date, as usual.
@@ -13,7 +12,6 @@ const VendingMachine = () => {
   return (
     <div>
       <BrowserRouter>
-        <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/soda" element={<Soda />} />
